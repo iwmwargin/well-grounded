@@ -78,3 +78,20 @@ header p {
     margin: 100px; 
     color: var(--light-grey); 
 }
+
+/* EXPERIENCE */
+
+.experience { 
+    background-image: url('../images/well-img.jpeg');
+    background-size: cover;
+    background-position: center 30%;
+    height: 450px;
+}
+
+.services { 
+    background-image: url('../images/balance.jpeg');
+    background-size: cover;
+    background-position: center 30%;
+    height: 450px;
+}
+
