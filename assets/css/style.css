@@ -95,3 +95,11 @@ header p {
     height: 450px;
 }
 
+/* FOOTER */
+
+footer { 
+    display: flex;
+    justify-content: center;
+    margin: 50px; 
+}
+
