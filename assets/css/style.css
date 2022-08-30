@@ -58,13 +58,15 @@ header h2 {
     align-self: center;
     font-weight: bold;
     font-size: 28px; 
+    margin-bottom: 20px; 
 }
 
 header p { 
     align-self: center;
     text-align: center;
-    margin: 20px 50px;
+    margin: 10px 50px;
     color: var(--light-grey); 
+    width: 60%; 
 }
 
 /* HR */
@@ -83,24 +85,93 @@ header p {
 /* EXPERIENCE */
 
 .experience { 
-    background-image: url('../images/well-img.jpeg');
-    background-size: cover;
-    background-position: center 30%;
-    height: 450px;
-    display: flex;
-    justify-content: right;
+    position: relative;
+    background-image: url('../images/well.jpg');
+    background-size: cover; 
+    background-position: center right;
+    height: 450px; 
 }
 
 .experience h2 { 
+    position: absolute;
+    top: 25%; 
+    right: 5%; 
     color: white; 
-    margin: 50px;
+    font-size: 28px;
+    text-align: right;
 }
 
+.experience p { 
+    position: absolute;
+    top: 45%;
+    right: 5%; 
+    left: 50%;
+    color: white; 
+    text-align: right;
+    font-size: 18px; 
+}
+
+.experience button { 
+    position: absolute;
+    top: 72%; 
+    right: 5%; 
+    background-color: var(--black);
+    color: white; 
+    font-size: 16px; 
+    padding: 20px 24px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.experience button:hover { 
+    background-color: var(--pink);
+}
+
+/* SERVICES */
+
 .services { 
-    background-image: url('../images/balance.jpeg');
-    background-size: cover;
-    background-position: center 30%;
-    height: 450px;
+    position: relative;
+    background-image: url('../images/balance.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 450px; 
+}
+
+.services h2 { 
+    position: absolute;
+    top: 25%; 
+    left: 5%; 
+    color: white; 
+    font-size: 28px;
+    text-align: left;
+}
+
+.services p { 
+    position: absolute;
+    top: 45%;
+    left: 5%; 
+    right: 50%;
+    color: white; 
+    text-align: left;
+    font-size: 18px; 
+}
+
+.services button { 
+    position: absolute;
+    top: 72%; 
+    left: 5%; 
+    background-color: var(--black);
+    color: white; 
+    font-size: 16px; 
+    padding: 20px 24px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.services button:hover { 
+    background-color: var(--pink);
 }
 
 /* FOOTER */
