@@ -182,3 +182,14 @@ footer {
     margin: 50px; 
 }
 
+/* SERVICES PAGE */
+
+#svc-p { 
+    color: var(--pink);   
+}
+
+#rate { 
+    font-style: italic;
+    margin-bottom: 50px; 
+}
+
