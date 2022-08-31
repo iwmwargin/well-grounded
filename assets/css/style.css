@@ -118,7 +118,7 @@ header p {
     background-color: var(--black);
     color: white; 
     font-size: 16px; 
-    padding: 20px 24px; 
+    padding: 18px; 
     border: none; 
     border-radius: 5px;
     cursor: pointer; 
@@ -164,7 +164,7 @@ header p {
     background-color: var(--black);
     color: white; 
     font-size: 16px; 
-    padding: 20px 24px; 
+    padding: 18px; 
     border: none; 
     border-radius: 5px;
     cursor: pointer; 
@@ -186,6 +186,7 @@ footer {
 
 #svc-p { 
     color: var(--pink);   
+    font-weight: 600;
 }
 
 #rate { 
