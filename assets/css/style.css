@@ -194,3 +194,45 @@ footer {
     margin-bottom: 50px; 
 }
 
+/* CONTACT PAGE */
+
+#contact { 
+    display: flex;
+    justify-content: center;
+}
+
+#contact-form { 
+    display: flex; 
+    flex-direction: column;
+    width: 50%; 
+}
+
+#name {
+    margin: 10px;  
+    padding: 10px; 
+}
+
+#email { 
+    margin: 10px; 
+    padding: 10px; 
+}
+
+#message { 
+    margin: 10px;
+    padding: 10px; 
+}
+
+#form-btn { 
+    margin: 10px; 
+    max-width: 30%; 
+    padding: 10px; 
+    background-color: var(--black);
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+ #form-btn:hover { 
+    background-color: var(--pink);
+}

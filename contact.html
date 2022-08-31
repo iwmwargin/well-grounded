@@ -37,10 +37,32 @@
         </ul>
     </nav>
 
+    <!-- header section -->
+    <header>
+        <img src="./assets/images/LOGO_Pink-on-White.png">
+        <h2>Well Grounded Massage + Bodywork</h2>
+    </header>
+
+    <!-- contact form -->
+    <section id="contact">
+        <form id="contact-form" onsubmmit="return false">
+            <input type="text" placeholder="Name" id="name">
+            <input type="email" placeholder="Email" id="email">
+            <textarea placeholder="Message" id="message"></textarea>
+            <button id="form-btn" onclick="sendContact();">SUBMIT</button>
+        </form>
+    </section>
+
+    <div id="hr">
+        <hr>
+    </div>
+
     <!-- footer -->
     <footer>
         <p>Instagram: @bodyworkbyjenni</p>
     </footer>
-</body>
 
+     <!-- js -->
+     <script src="./js/script.js"></script>
+</body>
 </html>
